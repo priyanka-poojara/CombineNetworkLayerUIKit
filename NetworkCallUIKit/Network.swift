@@ -8,18 +8,6 @@
 import Foundation
 import Combine
 
-/*
-func fetchMovies() -> some Publisher<MovieResponse, Error> {
-    let url = URL(string: "https://api.themoviedb.org/3/movie/upcoming?api_key=\(apikey)")!
-    
-    return URLSession
-        .shared
-        .dataTaskPublisher(for: url)
-        .map(\.data)
-        .decode(type: MovieResponse.self, decoder: jsonDecoder)
-}
-*/
-
 public class NetworkService {
     
     private init() {}

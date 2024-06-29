@@ -1,0 +1,6 @@
+framework module Pods_NetworkCallUIKit {
+  umbrella header "Pods-NetworkCallUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
